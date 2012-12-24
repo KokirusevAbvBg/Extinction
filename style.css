@@ -1,0 +1,120 @@
+body {
+    line-height: 1;
+    background-color: #D6C584; 
+}
+a {
+    text-decoration:none;
+    margin-right: 4px;
+    color:#8F7B55;
+}
+.regbar{
+    height:25px;
+    float: right;
+    margin:0px; 
+    font-size:15px;
+    background: #F7C869;
+    width:100%;
+    padding: 0px;
+    top: 0px;
+}
+
+.regbar ul {
+    float: right;
+    list-style: none;
+    text-align:right;
+    padding-top: 0px;  
+    margin-top:5px; 
+}
+
+ul.regbar li {
+    display: inline;
+
+}
+.navbar{
+    text-align:center;
+    background: #F7C869;  
+    height: 30px;   
+}
+.navbar ul li{
+    position: relative;
+    top:5px;
+    border-right :1px solid #53777A;  
+    font-size: 120%; 
+   
+}
+
+ul.navbar li {
+    display: inline;   
+}
+
+#title{
+    padding-top:75;
+    text-align: center;
+    color:#8F7B55;
+    font-size: 250%;
+}
+
+#about{
+    width:720px;
+    height:400px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-indent:10px;
+    font-size: 150%;
+
+}
+
+p{
+    color:#8F7B55;
+}
+
+form.regform fieldset{
+    width: 400px ;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;   
+}
+
+form.regform label {
+    display: block;
+    float: left;
+    width: 120px;
+    text-align: right;
+    padding: 2px 1ex 6px 0;
+    vertical-align: baseline;
+        color:#8F7B55;
+}
+
+form.regform div
+{
+    clear: both;
+    margin: 0;
+    padding: 0.5em 0 0 0;
+    overflow: visible;
+}
+
+form.regform .regbutton{
+    border: 1px solid #53777A;
+    background:#C6D5AE;
+    color:#8F7B55;              
+    margin-left: 130px;
+    width:150px;
+    height:40px;
+    margin-top: 0px;
+    
+} 
+
+form.logout{
+    
+    float: right;
+    color:#8F7B55 ;
+}
+
+form.logout .logoutbutton{
+    border: 1px solid #53777A;
+    background:#C6D5AE;
+    color:#8F7B55;              
+    margin-left: 2px;
+    margin-top: 2px;
+} 
